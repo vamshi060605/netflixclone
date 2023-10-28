@@ -2,6 +2,12 @@
 
 This is a simple HTML project that replicates the Netflix homepage. It includes a landing page with various sections to showcase the features of Netflix.
 
+## Technologies Used
+
+- HTML, CSS, and JavaScript for the frontend
+-
+You can access the live demo of the Netflix clone project [here](link_to_demo).
+
 ## Project Structure
 
 The project consists of the following files and directories:
