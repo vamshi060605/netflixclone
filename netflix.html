@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<script src="script.js"></script>
+<link rel="stylesheet" href="netflix.css">
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+<link href="images/webicon.png" rel="icon">
+<head>
+  <title>Netflix clone</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar"> 
+      <div class="navbar_netflix">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="netflix logo" class="netflix_logo"/>
+      </div>
+      <div class="navbar_items">
+        <div class="nav_item">
+          <div class="dropdown">
+            <i class="fa fa-globe" ></i>
+            <select name="language" id="lang_select">
+              <option value="English" selected>English</option>
+              <option value="tamil">tamil</option>
+              <option value="hindi">hindi</option>
+            </select>
+          </div>
+        </div>
+        <div class="nav_item">
+          <button class="sign_in_button"><b>sign in</b></button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero_bg_img">
+        <img src="images/bg.jpg" alt="background pic" class="bg_img">
+      </div>
+      <div class="bg_overlay"></div>
+      <div class="hero_card">
+        <h1 class="hero_title">Enjoy big movies, hit series and more <br>from ₹ 149.</h1>
+        <h2 class="hero_sub">Join today. Cancel anytime.</h2>
+        <p hero="hero_des"><nobr> Ready to watch? Enter your email to create or restart your membership.</nobr></p>
+        <br>
+        <nobr>
+          <input type="email" class="email" placeholder="email address" >
+          <button class="get_started"><b>get started ></b></button>
+        </nobr>
+      </div>
+    </section>
+    <div  class="divider"></div>
+    <section class="movie_cards">
+      <div class="card1">
+        <div class="card_des1">
+          <h1><b>Enjoy on your TV</b></h1>
+          <h3>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3>
+        </div>
+          <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="card_1">
+          <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" loop muted autoplay></video>
+      </div>
+      <div  class="divider"></div>
+      <div class="card2">
+        <div class="card_des2">
+          <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="card2">
+          <h1><b>Download your shows to watch offline</b></h1>
+          <h3> Save your favourites easily and always have something to watch.</h3>
+        </div>
+      </div>
+      <div  class="divider"></div>
+      <div class="card3">
+        <div class="card_des3">
+          <h1><b>Watch everywhere</b></h1>
+          <h3>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h3>
+        </div>
+          <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png" alt="card3">
+          <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v" loop autoplay muted></video>  
+      </div>
+      <div  class="divider"></div>
+    </section>
+  </main>
+</body>
+
+</html>
