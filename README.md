@@ -2,6 +2,8 @@
 
 This is a simple HTML project that replicates the Netflix homepage. It includes a landing page with various sections to showcase the features of Netflix.
 
+<b>The goal is to enhance your HTML and CSS skills, as well as my understanding of responsive web design.</b>
+
 ## Technologies Used
 
 - HTML, CSS, and JavaScript for the frontend
